@@ -1,0 +1,119 @@
+* {
+	font-family: "CyberBlitz";
+}
+
+@font-face {
+	font-family: "CyberBlitz";
+	src: url("fonts/AGENCYR.woff") format("woff");
+}
+
+body {
+	background-color: black;
+	overflow-x: hidden;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#background {
+	display: block;
+	position: absolute;
+	min-width: 2100px;
+	position: relative;
+	top: 120px;
+	left: 70px;
+}
+
+#wrap {
+	display: block;
+	position: absolute;
+	width: 800px;
+	min-height: calc(100% - 20px);
+	background-color: rgba(0, 0, 0, 0);
+
+	top: 20px;
+	border-radius: 5px;
+}
+
+#logo {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+	top: -10px;
+}
+
+#video {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 5px;
+
+	background-color: rgb(19, 19, 19);
+	/* box-shadow: 0px 0px 50px black; */
+}
+
+img {
+	-webkit-user-drag: none;
+	user-select: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+#download-button {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 520px;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+	background-color: rgb(12, 12, 12);
+	color: rgb(255, 255, 255);
+	border-radius: 0px;
+	border: solid 4px rgb(70, 70, 70);
+	cursor: pointer;
+	user-select: none;
+	font-weight: 500;
+	font-size: 35px;
+}
+
+#download-icon {
+	display: none;
+	position: absolute;
+	width: 50px;
+	fill: white;
+	left: 20px;
+	top: 18px;
+}
+
+#mirror {
+	color: rgb(109, 109, 109);
+	text-decoration: underline;
+}
+
+#download-info {
+	position: relative;
+	display: block;
+	width: 565px;
+	margin: 0 auto;
+	color: rgb(109, 109, 109);
+	font-size: 23px;
+	margin-top: 10px;
+}
+
+#banner {
+	width: 565px;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	margin-top: 50px;
+	left: 20px;
+}
